@@ -1,10 +1,10 @@
 import { ImageWithFallback } from "./figma/ImageWithFallback";
-import { CheckCircle2, Shield, Users, Clock, ComputerIcon } from "lucide-react";
+import { CheckCircle2, Shield, Users, Clock, ComputerIcon, PlusSquareIcon } from "lucide-react";
 import { useState } from "react";
 
 const features = [
   {
-    icon: Shield,
+    icon: PlusSquareIcon,
     title: "High Success Rate",
     description: "Get it all done in just one appointment"
   },
@@ -133,23 +133,15 @@ export function AboutUsSection() {
         <div className="max-w-5xl mx-auto">
           <div className="space-y-6">
             <p className="text-lg text-gray-700 leading-relaxed">
-              Founded by expats who experienced the challenges of navigating Thailand's visa system firsthand, 
+              How important is mobility to you? For you, what does opportunity, or freedom mean? They mean eveything to us at Issa Compass. Our mission is to put these within your reach through our seamless, software-backed, Visa services. 
               <span style={{ color: '#267383' }}> Issa Compass </span>
-              was born from a simple mission: to make the visa process seamless and stress-free for everyone.
+              has its roots in stories just like yours. Co-founder Aaron Yip, thanks to the work mobility and resiliance of him and his parents, was able to reach incredible career heights just by the age of 25.
             </p>
 
             <p className="text-lg text-gray-700 leading-relaxed">
-              We understand that obtaining a visa is more than just paperwork – it's the gateway to 
-              <span style={{ color: '#267383' }}> building the life you want in Thailand</span>. 
-              Whether you're pursuing a career, starting a business, retiring in paradise, or continuing your education, 
-              our team of experienced professionals is committed to guiding you every step of the way.
-            </p>
-
-            <p className="text-lg text-gray-700 leading-relaxed">
-              With years of expertise and a deep understanding of Thai immigration regulations, we've helped 
-              thousands of foreigners successfully obtain their visas. Our commitment to 
-              <span style={{ color: '#267383' }}> transparency, efficiency, and personalized service </span>
-              sets us apart in the industry.
+              What's stopping you from going further? Visas are often the hardest step. In going through Issa, we break down these obstacles smoothly, so you can forge your path in Thailand. <span style={{ color: '#267383' }}> We listen to you with heart and execute for you with tech. </span>.
+              Whether you're pursuing a career, starting a business, digital nomading, or learning a Thai trade, 
+              our personal team and sophisticated sofware application solutions are there with you every step of the way.
             </p>
 
             {/* Features */}
@@ -181,7 +173,7 @@ export function AboutUsSection() {
               </div>
               <div className="flex items-center gap-2 px-4 py-2 bg-[#faf8f4] rounded-lg">
                 <CheckCircle2 className="w-5 h-5" style={{ color: '#267383' }} />
-                <span className="text-sm">1000+ Happy Clients</span>
+                <span className="text-sm">1000+ Visas Approved</span>
               </div>
             </div>
           </div>

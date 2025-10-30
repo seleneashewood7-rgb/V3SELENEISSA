@@ -7,23 +7,23 @@ const passportLargeImage = "/Thai Visa.png";
 const reviews = [
   {
     id: 1,
-    name: "Sarah Johnson",
-    country: "United States",
-    text: "The process was incredibly smooth. Issa Compass handled everything professionally and I got my work visa in record time.",
+    name: "Bappy khan",
+    country: "Bangladesh",
+    text: "Their service was excellent from start to finish. Getting any visa as a Bangladeshi can be quite difficult but I'm so happy my Dad's visa got approved smoothly",
     rating: 5,
   },
   {
     id: 2,
-    name: "Marco Rossi",
-    country: "Italy",
-    text: "Best visa service in Thailand. They made my retirement visa application stress-free and straightforward.",
+    name: "Sarah Johnson",
+    country: "U.S.",
+    text: "This is, unequivocally, the finest agency with which I've ever interacted with. They were exceptionally friendly and demonstrated genuine care regarding my personal situation.",
     rating: 5,
   },
   {
     id: 3,
     name: "Yuki Tanaka",
     country: "Japan",
-    text: "Excellent communication and support throughout the entire process. Highly recommend for any visa needs.",
+    text: "I applied for my DTV visa through Issa Compass and the experience was excellent. The team handled everything with professionalism and efficiency.",
     rating: 5,
   },
 ];
@@ -219,6 +219,7 @@ export function HeroSection() {
           animation: slideInLeft 1s ease-out forwards;
         }
       `}</style>
+
     </section>
   );
 }
